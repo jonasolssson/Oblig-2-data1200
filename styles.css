@@ -5,12 +5,12 @@
 
 body {
     margin: 0;
-    background-color: #EEEEEE;
+    background-color: #716969;
 }
 
 header {
     width: calc(100vw - 2rem);
-    background-color: red;
+    background-color:#2D2E2E;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,7 +31,7 @@ header {
 .bilde {
     width: 100%;
     height: 100%;
-    background-color: aqua;
+    background-color:rgba(0, 0, 0, 0.3);
     margin: 1.5%;
     justify-self: center;
     align-self: center;
@@ -40,8 +40,9 @@ header {
 
 .img {
     height: 80%;
-    width: auto;
+    width: 100%;
     background-color: blue;
+    overflow: hidden;
 }
 
 .text {
@@ -52,4 +53,13 @@ header {
 
 @media only screen and (max-width: 650px) {
 
+}
+
+
+img{
+    width: 100%;
+}
+
+.text{
+    background: rgba(0,0,0,0);
 }
