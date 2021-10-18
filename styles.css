@@ -27,7 +27,7 @@ header {
 }
 
 
-.bilde {
+.innhold {
     width: 100%;
     height: 100%;
     background-color:rgba(0, 0, 0, 0.3);
@@ -58,7 +58,26 @@ header {
 }
 
 @media only screen and (max-width: 650px) {
+    .supercontainer {
+        grid: repeat(6, 80vh) / 1fr;
+        /* width: 100vw;
+        margin-left: 0;
+        margin-right: 0;
+        gap: 1rem; */
+    }
 
+    .img {
+        height: 85%;
+    }
+
+    p {
+        font-size: large;
+    }
+
+    h1 {
+        font-weight: 100;
+        font-size: xx-large;
+    }
 }
 
 
@@ -80,15 +99,15 @@ footer {
     justify-content: space-between;
     margin: 1rem;
     padding: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-button {
-    width: 20%;
-}
 
 a {
     text-align: center;
 }
+
 
 .reflection {
     background-color: #ffbf80;
@@ -96,7 +115,15 @@ a {
 
 .reflectiontext {
     padding: .5rem;
+<<<<<<< HEAD
     padding-left: 5rem;
     padding-right: 5rem;
     border: 3px solid #ffdab3;
 }
+=======
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border: 2px solid #ffdab3;
+}
+
+>>>>>>> f3e16e56cdd37e153713a8c98e92afb1b64d4f8e
