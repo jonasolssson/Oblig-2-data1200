@@ -27,7 +27,7 @@ header {
 }
 
 
-.bilde {
+.innhold {
     width: 100%;
     height: 100%;
     background-color:rgba(0, 0, 0, 0.3);
@@ -103,10 +103,20 @@ footer {
     padding-right: 1rem;
 }
 
-button {
-    width: 20%;
-}
 
 a {
     text-align: center;
 }
+
+
+.reflection {
+    background-color: #ffbf80;
+}
+
+.reflectiontext {
+    padding: .5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border: 2px solid #ffdab3;
+}
+
