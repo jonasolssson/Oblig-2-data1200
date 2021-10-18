@@ -21,7 +21,6 @@ header {
     width: calc(100vw - 2rem);
     margin-left: 1rem;
     margin-right: 1rem;
-    height: 100vh;
     display: grid;
     grid: 40vh 40vh / 1fr 1fr 1fr;
     gap: 1rem;
@@ -39,16 +38,23 @@ header {
 }
 
 .img {
-    height: 80%;
+    height: 75%;
     width: 100%;
     background-color: blue;
-    overflow: hidden;
+    object-fit: cover;
+    /* overflow: hidden; */
 }
 
 .text {
     padding: .5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+@media only screen and (max-width: 970px) {
+    .supercontainer {
+        grid: 40vh 40vh 40vh / 1fr 1fr;
+    }
 }
 
 @media only screen and (max-width: 650px) {
@@ -58,8 +64,28 @@ header {
 
 img{
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .text{
     background: rgba(0,0,0,0);
+}
+
+footer {
+    width: calc(100vw - 2rem);
+    background-color: #ffdab3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+    padding: .5rem;
+}
+
+button {
+    width: 20%;
+}
+
+a {
+    text-align: center;
 }
