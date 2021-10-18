@@ -89,3 +89,10 @@ button {
 a {
     text-align: center;
 }
+
+.reflection {
+    background-color: #ffbf80;
+    display: flex;
+    align-items: auto;
+
+}
