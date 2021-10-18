@@ -88,6 +88,14 @@ a {
 }
 
 
+.reflection {
+    background-color: #ffbf80;
+}
 
-
+.reflectiontext {
+    padding: .5rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    border: 2px solid #ffdab3;
+}
 
