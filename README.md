@@ -5,4 +5,4 @@
  Silje Tapio, s339777
 
 
- we were a bit uncertain if the task asked for to layouts pr screensize. the TA we contacted interpreted it the same way as us; one layout that works across two screensizes. let us know if we should have done twice as much.
+ we were a bit uncertain if the task asked for two layouts pr screensize. the TA we contacted interpreted it the same way as us; one layout that works across two screensizes. let us know if we should have done twice as much.
